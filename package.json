@@ -23,12 +23,13 @@
   "homepage": "https://github.com/chriszarate/bookmarkleter",
   "devDependencies": {
     "angular": "^1.6.3",
-    "browserify": "^14.1.0",
+    "browserify": "^17.0.0",
     "istanbul": "^0.4.5",
     "nodeunit": "^0.11.0"
   },
   "dependencies": {
-    "babel-minify": "^0.5.0",
-    "babel-standalone": "^6.17.0"
+    "@babel/preset-env": "^7.16.4",
+    "@babel/standalone": "^7.16.4",
+    "babel-minify": "^0.5.1"
   }
 }
